@@ -197,26 +197,14 @@ summaryList | 数据一览 | Array | []
 
 ## table
 基于 Vue 和 iView 的表格与分页组合
-
-#### 插件安装
-
-    npm i ls-common-table
-
-#### 插件引用
-
-    import Vue from 'vue'
-    import lsCommonTable from 'ls-common-table'
-    
-    Vue.use(lsCommonTable)
-
 #### 基本用法
 
-    <ls-common-table
+    <common-table
       :columns="columns"
       :data="list"
       :loading="loading"
       :page="page"
-      :queryData="queryData"></ls-common-table>
+      :queryData="queryData"></common-table>
 
 #### API
 
