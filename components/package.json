@@ -1,0 +1,16 @@
+{
+  "name": "front-global-components",
+  "version": "1.0.0",
+  "description": "前端组件的npm化",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "global",
+    "compoments",
+    "Vue"
+  ],
+  "author": "anyf",
+  "license": "ISC"
+}
