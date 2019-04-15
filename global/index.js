@@ -6,6 +6,7 @@ import myFrame from './frame'
 import summaryList from './summaryList'
 import Logo from './logo'
 import inputSearch from './inputSearch'
+import myModal from './myModal'
 
 export {
   RightNav,
@@ -15,5 +16,6 @@ export {
   myFrame,
   summaryList,
   Logo,
-  inputSearch
+  inputSearch,
+  myModal
 }

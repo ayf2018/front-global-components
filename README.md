@@ -7,7 +7,7 @@
 - frame
 - inputSearch
 - lampNav
-- log
+- logo
 - myModal
 - rightNav
 - scaling
@@ -30,7 +30,8 @@
         myFrame,
         summaryList,
         Logo,
-        inputSearch
+        inputSearch,
+        myModal
     } from 'front-gloabl-components'
 
     Vue.use(RightNav)
@@ -41,6 +42,7 @@
     Vue.use(summaryList)
     Vue.use(Logo)
     Vue.use(inputSearch)
+    Vue.use(myModal)
 
 ## frame
 
@@ -128,7 +130,32 @@ on-search | 用于搜索灯杆 | 参数为搜索值
 #### 基本用法
 
     <Logo></Logo>
-    
+
+## myModal
+视频识别模块的自定义弹出框
+
+#### 基本用法
+
+    <my-modal
+        class="photo-seek"
+        title="照片寻人"
+        :value="currentState==='photoSeeking'"
+        @on-click="closeModal"
+    >
+        <slot></slot>
+    </my-modal>
+
+#### API
+参数 | 说明 | 类型 | 默认值
+--- | --- | --- | ---
+title | 弹出框的标题 | String | ''
+value | 控制弹出框的显示 | Boolean | false
+width | 弹出框宽度 | Number | 536
+#### Event
+事件名 | 说明 | 参数
+--- | --- | ---
+on-click | 点击关闭按钮的回调 | -
+
 ## rightNav
 通用左侧列表
 
