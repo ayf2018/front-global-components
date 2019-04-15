@@ -16,15 +16,30 @@
 
 #### 安装
 
-    npm install front-gloabl-components
+    npm install front-global-components
     
 #### 使用
 
 在入口文件如main.js中按需引入和使用
 
-    import { frame, inputSearch} from 'front-gloabl-components'
+    import {
+        RightNav,
+        LampNav,
+        commonTable,
+        scaling,
+        myFrame,
+        summaryList,
+        Logo,
+        inputSearch
+    } from 'front-gloabl-components'
 
-    Vue.use(frame)
+    Vue.use(RightNav)
+    Vue.use(LampNav)
+    Vue.use(commonTable)
+    Vue.use(scaling)
+    Vue.use(myFrame)
+    Vue.use(summaryList)
+    Vue.use(Logo)
     Vue.use(inputSearch)
 
 ## frame
