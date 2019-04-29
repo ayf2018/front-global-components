@@ -61,7 +61,7 @@ export default {
     }
 
     &.active {
-      box-shadow: 0 0 10px rgb(45, 111, 78) inset;
+      box-shadow: 0 0 10px rgb(45, 220, 78) inset;
     }
 
     .num {
