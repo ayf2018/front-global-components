@@ -18,7 +18,7 @@
             :key="i"
             @click="onClick(t,i)"
             :class="{active:currentIndex===i,item2:currentType==='style2'}">
-            <img class="itemImg"
+            <img class="itemImg" style="width:24px;"
               :src="t.icon">
             <p class="itemName">{{t.name}}</p>
             <img v-if="t.state"
