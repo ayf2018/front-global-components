@@ -6,7 +6,7 @@
           :to="t.src"
           :class="getClass(t.code)"
       >
-          <img :src="t.icon">
+          <img :src="t.icon" style="width: 24px;">
           <div class="type-label">{{t.title}}</div>
         </router-link>
   </div>
