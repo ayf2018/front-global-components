@@ -12,6 +12,7 @@
 <script>
 export default {
   name: 'inputSearch',
+  props: ['currentTypeCode'],
   data () {
     return {
       lampPoleName: '',
@@ -22,6 +23,9 @@ export default {
   watch: {
     drawerStart (t) {
       this.$emit('drawerShow', t)
+    },
+    currentTypeCode () {
+      this.drawerStart = false
     }
   },
   computed: {

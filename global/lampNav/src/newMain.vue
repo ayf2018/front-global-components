@@ -1,6 +1,6 @@
 <template>
   <div class="left-nav-main">
-    <input-search v-on:on-search="searchLampPole"
+    <input-search v-on:on-search="searchLampPole" :currentTypeCode='currentTypeCode'
       @drawerShow="drawerShow"></input-search>
     <header-drawer :headerData="headerData"
       :isShow='isShow'

@@ -98,7 +98,7 @@ export default {
 
   .item {
     display: inline-block;
-    width: 49%;
+    width: calc(~"50% - 2px");
     height: 76px;
     background-color: rgba(0, 0, 0, 0.2);
     margin: 4px 4px 0 0;
