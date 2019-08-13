@@ -21,21 +21,6 @@ export default {
     return {
       state: true
     }
-  },
-  props: {
-    width: {
-      type: [Number, String],
-      default: 272
-    },
-    height: {
-      type: [Number, String],
-      default: 300
-    }
-  },
-  computed: {
-    contentHeight: function () {
-      return this.state ? this.height : 0
-    }
   }
 }
 </script>
